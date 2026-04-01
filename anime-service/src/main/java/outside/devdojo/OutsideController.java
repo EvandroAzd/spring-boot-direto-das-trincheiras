@@ -1,13 +1,13 @@
-package academy.devdojo.controllers;
+package outside.devdojo;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class OutsideController {
 
-    @GetMapping("hello")
-    public String hi(){
-        return "Hello world!";
+    @GetMapping("test")
+    public String outside(){
+        return "OutsideController";
     }
 }
