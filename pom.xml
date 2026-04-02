@@ -12,4 +12,8 @@
 		<module>anime-service</module>
 	</modules>
 
+<!--	<modules>-->
+<!--		<module>exercises</module>-->
+<!--	</modules>-->
+
 </project>
